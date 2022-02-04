@@ -8,6 +8,7 @@
 .D1 {
   height: 90vh;
   width: 100%;
+  padding-top: 10vh;
   /* background-color: #ba181b; */
   /* text-align: center; */
   background-image: url("bg2.jpg");
@@ -50,6 +51,18 @@ h1 {
   padding: 0px 100px;
 }
 
+.D2 div ul li{
+  transition-timing-function: ease-in;
+  transition-duration: 0.1s;
+}
+
+
+.D2 div ul li:hover {
+  color: aliceblue;
+  font-size: 35px;
+  
+}
+
 .D3 {
   height: 100vh;
   width: 100%;
@@ -74,7 +87,7 @@ h1 {
 }
 
 .D3 a:hover {
-  text-decoration: none;
+ 
   color: #e5383b;
   font-size: 50px;
 }
@@ -82,12 +95,28 @@ h1 {
 nav {
   background-color: #161a1d;
   height: 10vh;
+  width: 100%;
   display: flex;
   align-items: center;
   font-family: "Bebas Neue", cursive, sans-serif;
   font-size: 40px;
   color: #b1a7a6;
+  position: fixed;
 }
+
+.navlink{
+  text-decoration: none;
+  color: #b1a7a6;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.navlink:hover{
+  font-weight: 900;
+  font-size: 22px ;
+  color: aliceblue;
+}
+
 
 .logo {
   height: 100%;

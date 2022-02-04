@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
     <title>Scoe Esports</title>
   </head>
   <body>
@@ -47,9 +52,8 @@
       </div>
     </div>
     <div class="D3">
-        <h1>Become A Member</h1>
-        <a href="contact.html">Join Us!</a>
-
+      <h1>Become A Member</h1>
+      <a href="contact.html">Join Us!</a>
     </div>
     <div class="D4">
       <img class="logo1" src="assets/ESPORTS LOGO.png" alt="" />
@@ -69,10 +73,24 @@
           <div class="footer-col">
             <h4>follow us</h4>
             <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <div class="wrapper">
+                <div class="icon instagram">
+                  <div class="tooltip">Instagram</div>
+                  <span onclick="instaRedirect()"
+                    ><i class="fab fa-instagram"></i
+                  ></span>
+                </div>
+                <div class="icon youtube">
+                  <div class="tooltip">Youtube</div>
+                  <span><i class="fab fa-youtube"></i></span>
+                </div>
+                <div class="icon whatsapp">
+                  <div class="tooltip">Whatsapp</div>
+                  <span onclick="whatsappRedirect()"
+                    ><i class="fab fa-whatsapp"></i
+                  ></span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

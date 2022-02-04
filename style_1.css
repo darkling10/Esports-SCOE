@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&display=swap");
+
+body{
+    background-image:url("assets/Bg1.jpg") ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.D1{
+    margin-top: 15vh;
+    padding: 50px;
+    /* height: 50vh; */
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #d3d3d3;
+    
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+input ,textarea{
+    
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    
+}
+
+input[type="submit"]{
+    background-color: gold;
+    font-size: 20px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    color: black;
+
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color: green;
+
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+}
